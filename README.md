@@ -7,6 +7,7 @@ Here we give access to the Machine Learning models that we developed to predict 
 
 
 | Variable | :---: | :---: |
+| :---:   | :---: | :---: |
 | age   | :---: | :---: |
 | sex | 301   | 283   |
 | type_of_strokePrimaryIntracerebralHaemorrhage |  :---: | :---: |
