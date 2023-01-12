@@ -4,7 +4,7 @@ Here we give access to the Machine Learning models that we developed to predict 
 | Feature |  Comment |
 | :---:   | :---: | 
 | age   |   |
-| sex |   |
+| sex |  Male |
 | type_of_strokePrimaryIntracerebralHaemorrhage |   |
 | type_of_strokeUknown |   " |
 |NIHSS  |   stroke severity  |
