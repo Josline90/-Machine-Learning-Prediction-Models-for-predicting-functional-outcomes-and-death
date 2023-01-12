@@ -1,23 +1,18 @@
 # ML Prediction Models of mRS levels
 Here we give access to the Machine Learning models that we developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead). While the features included:
 
-| Attempt | #1    | #2    |
+| Variable |  |  |
 | :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
-
-
-| Variable | :---: | :---: |
-| :---:   | :---: | :---: |
-| age   | :---: | :---: |
+| age   |  |  |
 | sex | 301   | 283   |
-| type_of_strokePrimaryIntracerebralHaemorrhage |  :---: | :---: |
-| type_of_strokeUknown |   :---: | :---: |
-|NIHSS  |  :---: | :---: |
-| Inpatient_at_time_of_stroke_-9 |  :---: | :---: |
-| Inpatient_at_time_of_stroke_1 |   :---: | :---: |
-| hypertension_-9 |  BP lowering   |:---: |
-| hypertension_1 | :---: | :---: |
-| atrial_fibrillation_-9 |  :---: | :---: |
+| type_of_strokePrimaryIntracerebralHaemorrhage |    |  |
+| type_of_strokeUknown |     |  |
+|NIHSS  |    |  |
+| Inpatient_at_time_of_stroke_-9 |    |  |
+| Inpatient_at_time_of_stroke_1 |     |  |
+| hypertension_-9 |  BP lowering   | |
+| hypertension_1 |   |  |
+| atrial_fibrillation_-9 |    |  |
 | atrial_fibrillation_1 |     |     |
 | diabetes_-9 |     |     |
 | diabetes_1 |     |     |
