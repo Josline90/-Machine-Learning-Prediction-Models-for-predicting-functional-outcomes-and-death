@@ -1,7 +1,7 @@
 # ML Prediction Models of mRS levels
-Here we give access to the Machine Learning models that we developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead). While the features included:
+Here we give access to the Machine Learning models that we developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. In that order, the features included:
 
-| Variable |  |  |
+| Variable |  | Comment |
 | :---:   | :---: | :---: |
 | age   |  |  |
 | sex | 301   | 283   |
@@ -10,6 +10,28 @@ Here we give access to the Machine Learning models that we developed to predict 
 |NIHSS  |    |  |
 | Inpatient_at_time_of_stroke_-9 |    |  |
 | Inpatient_at_time_of_stroke_1 |     |  |
+| hour_of_admission_4h_band040000to075959_-9 |     |     | 
+| hour_of_admission_4h_band040000to075959_1 |     |     | 
+| hour_of_admission_4h_band080000to115959_-9 |     |     | 
+| hour_of_admission_4h_band080000to115959_1 |     |     | 
+| hour_of_admission_4h_band120000to155959_-9 |     |     | 
+| hour_of_admission_4h_band120000to155959_1 |     |     | 
+| hour_of_admission_4h_band160000to195959_-9 |     |     | 
+| hour_of_admission_4h_band160000to195959_1 |     |     | 
+| hour_of_admission_4h_band200000to235959_-9 |     |     | 
+| hour_of_admission_4h_band200000to235959_1 |     |     | 
+| day_of_week_of_admissionMonday_-9 |     |     |
+| day_of_week_of_admissionMonday_1 |     |     |
+| day_of_week_of_admissionTuesday_-9 |     |     |
+| day_of_week_of_admissionTuesday_1 |     |     |
+| day_of_week_of_admissionWednesday_-9 |     |     |
+| day_of_week_of_admissionWednesday_1 |     |     |
+| day_of_week_of_admissionThursday_-9 |     |     |
+| day_of_week_of_admissionThursday_1 |     |     |
+| day_of_week_of_admissionFriday_-9 |     |     |
+| day_of_week_of_admissionFriday_1 |     |     |
+| day_of_week_of_admissionSaturday_-9 |     |     |
+| day_of_week_of_admissionSaturday_1 |     |     |
 | hypertension_-9 |  BP lowering   | |
 | hypertension_1 |   |  |
 | atrial_fibrillation_-9 |    |  |
@@ -34,17 +56,7 @@ Here we give access to the Machine Learning models that we developed to predict 
 | ambulance_1 |     |     | 
 | prior_anticoagulation_-9 |     |     | 
 | prior_anticoagulation_1 |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
-|  |     |     | 
+
 
                   
                   
