@@ -15,16 +15,17 @@ The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-
 -?
 
 ### Features (Variables)
-In that order, the features (after one-hot encoding) included:
+In that order, the features included:
 
 
-|Feature (Variable)| Naming in the dataset|Description  |
+|Feature (Variable)| Naming in the dataset (after one-hot encoding)|Description  |
 | :---:| :---:   | :---: | 
 |Age | age   |  Continuous 18 to 110 years | 
 |Sex| sex |  0-Female, 1-Male | 
 |Atrial Fibrillation (AF)| atrial_fibrillation_-9 | 0-No, 1-yes     | 
 | | atrial_fibrillation_1 |    "      |
-
+|Diabetes | diabetes_-9 |    "      |
+| | diabetes_1 |     "   |
 
 
 
@@ -63,8 +64,7 @@ In that order, the features (after one-hot encoding) included:
 | hypertension_-9 |  BP lowering drug    |
 | hypertension_1 |     |
 
-| diabetes_-9 |          |
-| diabetes_1 |     |     |
+
 | previous_stroke_tia_-9 |          |
 | previous_stroke_tia_1 |          |
 | rankin_scale_prestroke_-9 |         |
