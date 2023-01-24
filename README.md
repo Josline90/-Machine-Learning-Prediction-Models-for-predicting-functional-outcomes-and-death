@@ -19,7 +19,7 @@ In that order, the features included:
 
 
 |Feature (Variable)| Naming in the dataset (after one-hot encoding)|Description  |
-| :---:| :---:   | :---: | 
+| :---| :---   | :--- | 
 |Age | age   |  Continuous 18 to 110 years | 
 |Sex| sex |  0-Female, 1-Male | 
 |Atrial Fibrillation (AF)| atrial_fibrillation_-9 | 0-No, 1-yes     | 
