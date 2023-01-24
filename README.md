@@ -26,11 +26,10 @@ In that order, the features (after one-hot encoding) included:
 |^| atrial_fibrillation_1 |          |
 
 
-rowspan '^':
-|A |B|
-|--|--|
-|^|5|
-|^|7 |
+| Header 1  | Header 2            | Header 3  |
+| --------- | ------------------- | --------- |
+| Some data | Cell 2              | Cell 3    | Ignored | Ignored |
+| data      | Some long data here | more data | 
 
 
 
