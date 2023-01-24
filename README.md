@@ -81,7 +81,7 @@ In that order, the features included:
 
 
 
-NB:- Age and NIHSS (0-42) were used as continuous features while others as binary (0/1). -9 denote the separate category for missing values.              
+NB:- Age and NIHSS (0-42) were used as continuous features while others as binary (0/1). After one-hot encoding \_1 denote the 'Yes' category and \_-9 denote the separate category for missing values.              
                   
                   
                   
