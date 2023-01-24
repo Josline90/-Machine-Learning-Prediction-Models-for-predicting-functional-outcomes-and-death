@@ -26,12 +26,11 @@ In that order, the features (after one-hot encoding) included:
 |^| atrial_fibrillation_1 |          |
 
 
-
-|A |B
-|--|--
-|1<td rowspan="2">3</td>|2
-|4|5
-|6|7 
+rowspan '^':
+|A |B|
+|--|--|
+|^|5|
+|^|7 |
 
 
 
