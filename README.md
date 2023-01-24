@@ -26,11 +26,20 @@ In that order, the features included:
 | | atrial_fibrillation_1 |    "      |
 |Diabetes | diabetes_-9 |    "      |
 | | diabetes_1 |     "   |
-
-
-
-
-
+|Previous Stroke or TIA| previous_stroke_tia_-9 |    "      |
+|| previous_stroke_tia_1 |   "       |
+|Smoking| smoking_-9 |          | 
+|| smoking_1 |          | 
+|BP-lowering medication| hypertension_-9 |      |
+|| hypertension_1 |     |
+|Lipid lowering drugs| lipid_-9 |     "    | 
+|| lipid_1 |     "     | 
+|Prior anticoagulation| prior_anticoagulation_-9 |          | 
+|| prior_anticoagulation_1 |          | 
+|Pre-stroke mRS| rankin_scale_prestroke_-9 |         |
+|| rankin_scale_prestroke_3 |          |
+|| rankin_scale_prestroke_4|          |
+|| rankin_scale_prestroke_5 |          | 
 
 
 
@@ -61,28 +70,19 @@ In that order, the features included:
 | day_of_week_of_admissionFriday_1 |         |
 | day_of_week_of_admissionSaturday_-9 |          |
 | day_of_week_of_admissionSaturday_1 |          |
-| hypertension_-9 |  BP lowering drug    |
-| hypertension_1 |     |
 
 
-| previous_stroke_tia_-9 |          |
-| previous_stroke_tia_1 |          |
-| rankin_scale_prestroke_-9 |         |
-| rankin_scale_prestroke_3 |          |
-| rankin_scale_prestroke_4|          |
-| rankin_scale_prestroke_5 |          |                   
-| smoking_-9 |          | 
-| smoking_1 |          | 
-| lipid_-9 |     lipid lowering drug     | 
-| lipid_1 |     "     | 
+
+                  
+
+
 | wake_up_stroke_-9 |          | 
 | wake_up_stroke_1 |          | 
 | stroke_alert_-9 |          | 
 | stroke_alert_1 |          | 
 | ambulance_-9 |          | 
 | ambulance_1 |          | 
-| prior_anticoagulation_-9 |          | 
-| prior_anticoagulation_1 |          | 
+
 
 NB:- Age and NIHSS (0-42) were used as continuous features while others as binary (0/1). -9 denote the separate category for missing values.              
                   
