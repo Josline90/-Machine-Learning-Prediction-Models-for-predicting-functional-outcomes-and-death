@@ -1,11 +1,13 @@
 # ML Prediction Models of mRS levels
 This gives an access to the Machine Learning models that were developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. 
+
 This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.**
 
 The models are Multi-class Logistic regression (main effects model without regularization), Artificial neural network, Support vector machines, and XGBoost.
 
 ### Outcome of Interest
-Functional outcome and death at 3 months after stroke
+Functional outcome and death at 3 months after stroke.
+
 The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. 
 
 ### How to use the models
@@ -16,9 +18,13 @@ The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-
 In that order, the features (after one-hot encoding) included:
 
 
-| Feature |  Comment |
-| :---:   | :---: | 
-| age   |   |
+|Feature (Variable)| Naming in the dataset|  Comment |
+| :---:| :---:   | :---: | 
+|Age | age   |   |
+
+
+
+
 | sex |  Male |
 | type_of_strokePrimaryIntracerebralHaemorrhage |   |
 | type_of_strokeUknown |   " |
