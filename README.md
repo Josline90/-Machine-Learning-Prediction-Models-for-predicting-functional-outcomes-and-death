@@ -27,6 +27,17 @@ In that order, the features (after one-hot encoding) included:
 
 
 
+|A |B
+|--|--
+|1<td rowspan="2">3</td>|2
+|4|5
+|6|7 
+
+
+
+
+
+
 | type_of_strokePrimaryIntracerebralHaemorrhage |   |
 | type_of_strokeUknown |   " |
 |NIHSS  |   stroke severity  |
