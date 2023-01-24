@@ -18,14 +18,31 @@ The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-
 In that order, the features (after one-hot encoding) included:
 
 
+
+
+| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
+| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
+| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
+| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
+| ^^            |               | 1. second item |              | 1. forth item | + second point |
+
+
+
+
+
+
+
+
 |Feature (Variable)| Naming in the dataset|  Comment |
 | :---:| :---:   | :---: | 
-|Age | age   |   |
+|Age | age   |  Continuous 18 to 110 years |
+|Sex| sex |  0-Female 1-Male |
+|:Atrial Fibrillation (AF):| atrial_fibrillation_-9 |      |
+
+| atrial_fibrillation_1 |          |
 
 
 
-
-| sex |  Male |
 | type_of_strokePrimaryIntracerebralHaemorrhage |   |
 | type_of_strokeUknown |   " |
 |NIHSS  |   stroke severity  |
@@ -55,8 +72,7 @@ In that order, the features (after one-hot encoding) included:
 | day_of_week_of_admissionSaturday_1 |          |
 | hypertension_-9 |  BP lowering drug    |
 | hypertension_1 |     |
-| atrial_fibrillation_-9 |      |
-| atrial_fibrillation_1 |          |
+
 | diabetes_-9 |          |
 | diabetes_1 |     |     |
 | previous_stroke_tia_-9 |          |
