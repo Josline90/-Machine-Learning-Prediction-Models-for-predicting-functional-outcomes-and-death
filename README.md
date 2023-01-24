@@ -51,31 +51,28 @@ In that order, the features included:
 | |stroke_alert_1 |          | 
 |Ambulance service to hospital |ambulance_-9 |          | 
 || ambulance_1 |          | 
-
-
-
-| hour_of_admission_4h_band040000to075959_-9 |          | 
-| hour_of_admission_4h_band040000to075959_1 |         | 
-| hour_of_admission_4h_band080000to115959_-9 |          | 
-| hour_of_admission_4h_band080000to115959_1 |         | 
-| hour_of_admission_4h_band120000to155959_-9 |          | 
-| hour_of_admission_4h_band120000to155959_1 |          | 
-| hour_of_admission_4h_band160000to195959_-9 |         | 
-| hour_of_admission_4h_band160000to195959_1 |          | 
-| hour_of_admission_4h_band200000to235959_-9 |          | 
-| hour_of_admission_4h_band200000to235959_1 |          | 
-| day_of_week_of_admissionMonday_-9 |          |
-| day_of_week_of_admissionMonday_1 |          |
-| day_of_week_of_admissionTuesday_-9 |          |
-| day_of_week_of_admissionTuesday_1 |          |
-| day_of_week_of_admissionWednesday_-9 |          |
-| day_of_week_of_admissionWednesday_1 |          |
-| day_of_week_of_admissionThursday_-9 |          |
-| day_of_week_of_admissionThursday_1 |          |
-| day_of_week_of_admissionFriday_-9 |          |
-| day_of_week_of_admissionFriday_1 |         |
-| day_of_week_of_admissionSaturday_-9 |          |
-| day_of_week_of_admissionSaturday_1 |          |
+|Hour of Admission| hour_of_admission_4h_band040000to075959_-9 |          | 
+|| hour_of_admission_4h_band040000to075959_1 |         | 
+|| hour_of_admission_4h_band080000to115959_-9 |          | 
+|| hour_of_admission_4h_band080000to115959_1 |         | 
+|| hour_of_admission_4h_band120000to155959_-9 |          | 
+|| hour_of_admission_4h_band120000to155959_1 |          | 
+|| hour_of_admission_4h_band160000to195959_-9 |         | 
+|| hour_of_admission_4h_band160000to195959_1 |          | 
+|| hour_of_admission_4h_band200000to235959_-9 |          | 
+|| hour_of_admission_4h_band200000to235959_1 |          | 
+|Day of week of admission| day_of_week_of_admissionMonday_-9 |          |
+|| day_of_week_of_admissionMonday_1 |          |
+|| day_of_week_of_admissionTuesday_-9 |          |
+|| day_of_week_of_admissionTuesday_1 |          |
+|| day_of_week_of_admissionWednesday_-9 |          |
+|| day_of_week_of_admissionWednesday_1 |          |
+|| day_of_week_of_admissionThursday_-9 |          |
+|| day_of_week_of_admissionThursday_1 |          |
+|| day_of_week_of_admissionFriday_-9 |          |
+|| day_of_week_of_admissionFriday_1 |         |
+|| day_of_week_of_admissionSaturday_-9 |          |
+|| day_of_week_of_admissionSaturday_1 |          |
 
 
 
