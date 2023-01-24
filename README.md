@@ -18,18 +18,15 @@ The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-
 In that order, the features (after one-hot encoding) included:
 
 
-|Feature (Variable)| Naming in the dataset|  Comment |
+|Feature (Variable)| Naming in the dataset|Description  |
 | :---:| :---:   | :---: | 
-|Age | age   |  Continuous 18 to 110 years |
-|Sex| sex |  0-Female 1-Male |
-|Atrial Fibrillation (AF)| atrial_fibrillation_-9 |      |
-|^| atrial_fibrillation_1 |          |
+|Age | age   |  Continuous 18 to 110 years | 
+|Sex| sex |  0-Female, 1-Male | 
+|Atrial Fibrillation (AF)| atrial_fibrillation_-9 | 0-No, 1-yes     | 
+| | atrial_fibrillation_1 |    "      |
 
 
-| Header 1  | Header 2            | Header 3  |
-| --------- | ------------------- | --------- |
-| Some data | Cell 2              | Cell 3    | Ignored | Ignored |
-| data      | Some long data here | more data | 
+
 
 
 
