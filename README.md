@@ -1,14 +1,10 @@
 # ML Prediction Models of mRS levels
-This gives an access to the Machine Learning models that were developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. 
-
-This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.**
+This gives an access to the Machine Learning models that were developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.**
 
 The models are Multi-class Logistic regression (main effects model without regularization), Artificial neural network, Support vector machines, and XGBoost.
 
 ### Outcome of Interest
-Functional outcome and death at 3 months after stroke.
-
-The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. 
+Functional outcome and death at 3 months after stroke. This was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. 
 
 ### How to use the models
 -code?
@@ -22,10 +18,10 @@ In that order, the features included:
 | :---| :---   | :--- | 
 |Age | age   |  Continuous 18 to 110 years | 
 |Sex| sex |  0-Female, 1-Male | 
-|Type of stroke| type_of_strokePrimaryIntracerebralHaemorrhage | 0-No, 1-yes  |
+|Type of stroke| type_of_strokePrimaryIntracerebralHaemorrhage | 0-No, 1-Yes  |
 | |type_of_strokeUknown |   " |
 |NIHSS at arrival|NIHSS  |  Continuous 0 to 42  |
-|Inpatient at of stroke |Inpatient_at_time_of_stroke_-9 | 0-No, 1-yes    |
+|Inpatient at of stroke |Inpatient_at_time_of_stroke_-9 | 0-No, 1-Yes    |
 || Inpatient_at_time_of_stroke_1 |    "   |
 |Hour of Admission| hour_of_admission_4h_band040000to075959_-9 |    "      | 
 || hour_of_admission_4h_band040000to075959_1 |     "    | 
@@ -62,13 +58,13 @@ In that order, the features included:
 || rankin_scale_prestroke_4|       "    |
 || rankin_scale_prestroke_5 |      "     | 
 |Smoking| smoking_-9 |        "   | 
-|| smoking_1 |          | 
+|| smoking_1 |    "      | 
 |Lipid lowering drugs| lipid_-9 |     "    | 
 || lipid_1 |     "     | 
 | Wake up stroke|wake_up_stroke_-9 |      "     | 
-|| wake_up_stroke_1 |          | 
+|| wake_up_stroke_1 |    "      | 
 |Stroke alert activation |stroke_alert_-9 |      "     | 
-| |stroke_alert_1 |          | 
+| |stroke_alert_1 |    "      | 
 |Ambulance service to hospital |ambulance_-9 |       "    | 
 || ambulance_1 |       "    | 
 |Prior anticoagulation| prior_anticoagulation_-9 |      "     | 
