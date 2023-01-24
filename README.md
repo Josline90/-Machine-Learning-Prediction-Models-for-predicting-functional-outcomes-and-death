@@ -1,5 +1,9 @@
 # ML Prediction Models of mRS levels
-Here we give access to the Machine Learning models that we developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. In that order, after one-hot encoding the features included:
+Here we give access to the Machine Learning models that we developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.**
+
+
+
+The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. In that order, after one-hot encoding the features included:
 
 | Feature |  Comment |
 | :---:   | :---: | 
