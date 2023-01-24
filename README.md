@@ -40,14 +40,20 @@ In that order, the features included:
 || rankin_scale_prestroke_3 |          |
 || rankin_scale_prestroke_4|          |
 || rankin_scale_prestroke_5 |          | 
+|Inpatient at of stroke |Inpatient_at_time_of_stroke_-9 |    |
+|| Inpatient_at_time_of_stroke_1 |       |
+|NIHSS at arrival|NIHSS  |  Continuous 0 to 42  |
+|Type of stroke| type_of_strokePrimaryIntracerebralHaemorrhage |   |
+| |type_of_strokeUknown |   " |
+| Wake up stroke|wake_up_stroke_-9 |          | 
+|| wake_up_stroke_1 |          | 
+|Stroke alert activation |stroke_alert_-9 |          | 
+| |stroke_alert_1 |          | 
+|Ambulance service to hospital |ambulance_-9 |          | 
+|| ambulance_1 |          | 
 
 
 
-| type_of_strokePrimaryIntracerebralHaemorrhage |   |
-| type_of_strokeUknown |   " |
-|NIHSS  |   stroke severity  |
-| Inpatient_at_time_of_stroke_-9 |    |
-| Inpatient_at_time_of_stroke_1 |       |
 | hour_of_admission_4h_band040000to075959_-9 |          | 
 | hour_of_admission_4h_band040000to075959_1 |         | 
 | hour_of_admission_4h_band080000to115959_-9 |          | 
@@ -76,12 +82,6 @@ In that order, the features included:
                   
 
 
-| wake_up_stroke_-9 |          | 
-| wake_up_stroke_1 |          | 
-| stroke_alert_-9 |          | 
-| stroke_alert_1 |          | 
-| ambulance_-9 |          | 
-| ambulance_1 |          | 
 
 
 NB:- Age and NIHSS (0-42) were used as continuous features while others as binary (0/1). -9 denote the separate category for missing values.              
