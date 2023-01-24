@@ -18,28 +18,12 @@ The target variable was categorised into 3 classes (mRS 0-2: Independent, mRS 3-
 In that order, the features (after one-hot encoding) included:
 
 
-
-
-| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
-| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
-| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
-| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
-| ^^            |               | 1. second item |              | 1. forth item | + second point |
-
-
-
-
-
-
-
-
 |Feature (Variable)| Naming in the dataset|  Comment |
 | :---:| :---:   | :---: | 
 |Age | age   |  Continuous 18 to 110 years |
 |Sex| sex |  0-Female 1-Male |
-|:Atrial Fibrillation (AF):| atrial_fibrillation_-9 |      |
-
-| atrial_fibrillation_1 |          |
+|Atrial Fibrillation (AF)| atrial_fibrillation_-9 |      |
+|^| atrial_fibrillation_1 |          |
 
 
 
