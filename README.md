@@ -1,5 +1,5 @@
 # Machine Learning Models to predict Stroke functional outcomes and death
-This gives an access to the machine learning models that were trained and evaluated to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.**
+This gives an access to the machine learning models that were trained and evaluated to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.** It is in order to cite the paper if you use models from this repository.
 
 The models are Multi-class main effects logistic regression (LR), LR with 2 way interaction terms, artificial neural network, support vector machine, and XGBoost (eXtreme Gradient Boosting).
 
