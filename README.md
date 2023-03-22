@@ -7,9 +7,10 @@ The models are multi-class main effects logistic regression (LR), LR with 2 way 
 The primary outcome was the functional outcome and death at 3 months after stroke, measured using modified Rankin Scale (mRS). This was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. 
 
 ### Data set
-A total of 102135 (mRS 0-2: 43361, mRS 3-5: 36687, mRS 6: 22087) patients from the Swedish stroke registry (Riksstroke) between 2015-2020, were included. The models were trained and evaluated on 75% and 25% of the data set.
-    
+A total of 102135 (mRS 0-2: 43361, mRS 3-5: 36687, mRS 6: 22087) patients from the Swedish stroke registry (Riksstroke) were included. The models were trained and evaluated on 75% and 25% of the data set.
 
+Multivariate Imputation By Chained Equations algorithm was used to impute missing values on the NIHSS variable, while created a separate category for missing values in other variables.
+    
 ### How to use the models
 - Prepare the dataset, the outcome (e.g Y_test) and features set (e.g X_test) as listed below.
 - Download the models (the pickle files) to your local folder.
