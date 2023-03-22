@@ -1,4 +1,4 @@
-# ML Prediction Models of mRS levels
+# Machine Learning (ML) Models to predict Stroke functional outcomes and death
 This gives an access to the Machine Learning models that were developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.**
 
 The models are Multi-class Logistic regression (main effects model without regularization), Artificial neural network, Support vector machines, and XGBoost.
