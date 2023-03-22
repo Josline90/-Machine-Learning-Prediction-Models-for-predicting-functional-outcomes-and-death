@@ -9,7 +9,7 @@ The primary outcome was the functional outcome and death at 3 months after strok
 ### How to use the models
 - Prepare the dataset, the outcome (e.g Y_test) and features set (e.g X_test) as listed below.
 - Download the models (the pickle files) to your local folder.
-- Load the models in either Python ($External\_validation\_ML\_functional_outcomes.ipynb$ file) or any other programming software.
+- Load the models in either Python ($$External\_validation\_ML\_functional_outcomes.ipynb$$ file) or any other programming software.
 - Obtain the predictions on your data set then calculate the performance of the models, using accuracy scores, Matthews correlation coefficient, Kappa-correlation coefficient, ROC-AUC, F1-scores, among others.
 
 ### Features (Variables)
