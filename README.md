@@ -1,5 +1,5 @@
 # Machine Learning Models to predict Stroke functional outcomes and death
-This gives an access to the machine learning models that were developed to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.**
+This gives an access to the machine learning models that were trained and evaluated to predict functional outcome and death at 3 months after stroke in Sweden between the period 2015 to 2020. This is in connection to the manuscript: **Developing a Machine Learning Prediction Model of Functional Outcome and Death at 3 months after Stroke in Sweden.**
 
 The models are Multi-class main effects logistic regression (LR), LR with 2 way interaction terms, artificial neural network, support vector machine, and XGBoost (eXtreme Gradient Boosting).
 
@@ -7,8 +7,10 @@ The models are Multi-class main effects logistic regression (LR), LR with 2 way 
 The primary outcome was the functional outcome and death at 3 months after stroke, measured using modified Rankin Scale (mRS). This was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. 
 
 ### How to use the models
--code?
--?
+- Prepare the dataset, the outcome (e.g Y_test) and features set (e.g X_test) as listed below.
+- Download the models (the pickle files) to your local folder.
+- Load the models in either Python ($External_validation_ML_functional_outcomes.ipynb$ file) or any other programming software.
+- Obtain the predictions on your data set then calculate the performance of the models, using accuracy scores, Matthews correlation coefficient, Kappa-correlation coefficient, ROC-AUC, F1-scores, among others.
 
 ### Features (Variables)
 In that order, the features included:
