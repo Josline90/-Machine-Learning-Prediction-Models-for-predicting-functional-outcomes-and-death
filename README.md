@@ -7,9 +7,11 @@ The models are multi-class main effects logistic regression (LR), LR with 2 way 
 The primary outcome was the functional outcome and death at 3 months after stroke, measured using modified Rankin Scale (mRS). This was categorised into 3 classes (mRS 0-2: Independent, mRS 3-5: Dependent, mRS 6: Dead), coded as 0, 1, 2. 
 
 ### Data set
-A total of 102135 (mRS 0-2: 43361, mRS 3-5: 36687, mRS 6: 22087) patients from the Swedish stroke registry (Riksstroke) were included. The models were trained and evaluated on 75% and 25% of the data set.
+A total of 102135 (mRS 0-2: 43361 (42.5%), mRS 3-5: 36687 (35.9%), mRS 6: 22087 (21.6%)) patients from the Swedish stroke registry (Riksstroke) were included. The models were trained and evaluated on 75% and 25% of the data set.
 
 Multivariate Imputation By Chained Equations algorithm was used to impute missing values on the NIHSS variable, while created a separate category for missing values in other variables.
+
+Other details on the model building can be found on the paper mentioned above.
     
 ### How to use the models
 - Prepare the dataset, the outcome (e.g Y_test) and features set (e.g X_test) as listed below.
@@ -79,12 +81,10 @@ In that order, the features included:
                   
 
 
-
-
-NB:- Age and NIHSS (0-42) were used as continuous features while others as binary (0/1). After one-hot encoding \_1 denote the 'Yes' category and \_-9 denote the separate category for missing values.              
+NB:- Age and NIHSS (0-42) were used as continuous features while others as binary (0/1). After one-hot encoding, \_1 denote the 'Yes' category and \_-9 denote the separate category for missing values.              
                   
                   
 ### Contacts                  
-I will appreciate to have a collaboration for external validation of these models. If interested please contact josline.otieno@umu.se.
+We will appreciate to have a collaboration for external validation of these models. If interested please contact josline.otieno@umu.se.
 
                 
